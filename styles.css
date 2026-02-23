@@ -29,6 +29,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -38,6 +39,7 @@ body {
   line-height: 1.6;
   overflow-x: hidden;
   position: relative;
+  width: 100%;
 }
 
 /* Background Glow Orbs */
@@ -276,7 +278,7 @@ p {
   border-radius: 16px;
   box-shadow: 0 24px 64px rgba(0, 0, 0, 0.4);
   overflow: hidden;
-  transform: perspectiva(1000px) rotateY(-5deg);
+  transform: perspective(1000px) rotateY(-5deg);
   transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 

@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grabber | The Ultimate Media Downloader</title>
+    <meta
+      name="description"
+      content="Download videos, audios, and subtitles from YouTube and social media platforms. Support for MP4, MP3, 4K, Playlists, and more."
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Risque&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Abstract Background Elements -->
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar hidden-element">
+      <div class="nav-container">
+        <a href="#" class="logo">Grabber</a>
+        <div class="nav-links">
+          <a href="#features">Features</a>
+          <a href="#formats">Formats</a>
+          <a href="#download" class="btn-outline">Get App</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title hidden-element stagger-1">
+          Media,<br />Grabbed Instantly.
+        </h1>
+        <p class="hero-subtitle hidden-element stagger-2">
+          Download videos, audios, and subtitles from YouTube & social media.
+          Get any playlist, at max speed, in any quality imaginable.
+        </p>
+        <div class="hero-actions hidden-element stagger-3">
+          <a href="#download" class="btn-primary">
+            <svg
+              class="windows-icon"
+              viewBox="0 0 88 88"
+              width="24"
+              height="24"
+            >
+              <path
+                fill="currentColor"
+                d="M0 12.402l35.687-4.86.016 34.423-35.703.206L0 12.402zm35.67 36.36l.018 33.651-35.686-5.044v-28.4L35.67 48.76zm4.326-37.168L88 2.247v39.529l-48.004.28v-30.46zm48.004 42.528V85.6l-48.004-6.494V53.844l48.004.276z"
+              />
+            </svg>
+            Download for Windows
+          </a>
+          <span class="windows-only">* Available only for Windows 10/11</span>
+        </div>
+      </div>
+
+      <div class="hero-visual hidden-element stagger-4">
+        <div class="app-mockup">
+          <div class="mockup-header">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+          <div class="mockup-body">
+            <div class="mockup-search">
+              <input
+                type="text"
+                placeholder="Paste video URL here..."
+                readonly
+              />
+              <button class="mockup-btn">Grab</button>
+            </div>
+            <div class="mockup-list">
+              <div class="mockup-item">
+                <div class="item-icon"></div>
+                <div class="item-text">
+                  <div class="line line-1"></div>
+                  <div class="line line-2"></div>
+                </div>
+                <div class="item-progress"></div>
+              </div>
+              <div class="mockup-item">
+                <div class="item-icon"></div>
+                <div class="item-text">
+                  <div class="line line-1"></div>
+                  <div class="line line-2"></div>
+                </div>
+                <div class="item-progress thin"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+      <div class="section-header hidden-element">
+        <h2>Next-Gen Features</h2>
+        <p>Designed for power users, crafted with elegance.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card hidden-element">
+          <div class="feature-icon">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <polygon points="5 3 19 12 5 21 5 3"></polygon>
+            </svg>
+          </div>
+          <h3>Single & Playlists</h3>
+          <p>
+            Grab a single clip or an entire 100+ video playlist in one click. We
+            handle the queues.
+          </p>
+        </div>
+
+        <div class="feature-card hidden-element">
+          <div class="feature-icon">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"
+              ></path>
+            </svg>
+          </div>
+          <h3>Max Speed</h3>
+          <p>
+            Built with optimized multi-threaded downloading to saturate your
+            network bandwidth.
+          </p>
+        </div>
+
+        <div class="feature-card hidden-element">
+          <div class="feature-icon">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <rect
+                x="2"
+                y="2"
+                width="20"
+                height="20"
+                rx="2.18"
+                ry="2.18"
+              ></rect>
+              <line x1="7" y1="2" x2="7" y2="22"></line>
+              <line x1="17" y1="2" x2="17" y2="22"></line>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <line x1="2" y1="7" x2="7" y2="7"></line>
+              <line x1="2" y1="17" x2="7" y2="17"></line>
+              <line x1="17" y1="17" x2="22" y2="17"></line>
+              <line x1="17" y1="7" x2="22" y2="7"></line>
+            </svg>
+          </div>
+          <h3>Any Quality</h3>
+          <p>
+            From 144p to 8K, 60FPS. Choose your resolution and framerate without
+            limits.
+          </p>
+        </div>
+
+        <div class="feature-card hidden-element">
+          <div class="feature-icon">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+          </div>
+          <h3>Subtitles Included</h3>
+          <p>
+            Automatically fetch and embed subtitles for any supported language
+            instantly.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formats Section -->
+    <section id="formats" class="formats">
+      <div class="section-header hidden-element">
+        <h2>Formats Without Friction</h2>
+        <p>Export your media in whatever file type your project needs.</p>
+      </div>
+
+      <div class="format-showcase hidden-element">
+        <div class="format-category">
+          <h3>Video</h3>
+          <div class="pills-container video-pills">
+            <span class="pill">MP4</span>
+            <span class="pill">WEBM</span>
+            <span class="pill">MKV</span>
+            <span class="pill">AVI</span>
+            <span class="pill">MOV</span>
+            <span class="pill">FLV</span>
+            <span class="pill">WMV</span>
+          </div>
+        </div>
+
+        <div class="format-category">
+          <h3>Audio</h3>
+          <div class="pills-container audio-pills">
+            <span class="pill">MP3</span>
+            <span class="pill">M4A</span>
+            <span class="pill">WEBM</span>
+            <span class="pill">OPUS</span>
+            <span class="pill">FLAC</span>
+            <span class="pill">WAV</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="download" class="cta">
+      <div class="cta-content hidden-element">
+        <h2>Ready to grab it?</h2>
+        <p>
+          Join the next generation of content downloading. Fast, elegant, and
+          secure.
+        </p>
+        <a href="#" class="btn-primary large">
+          <svg class="windows-icon" viewBox="0 0 88 88" width="28" height="28">
+            <path
+              fill="currentColor"
+              d="M0 12.402l35.687-4.86.016 34.423-35.703.206L0 12.402zm35.67 36.36l.018 33.651-35.686-5.044v-28.4L35.67 48.76zm4.326-37.168L88 2.247v39.529l-48.004.28v-30.46zm48.004 42.528V85.6l-48.004-6.494V53.844l48.004.276z"
+            />
+          </svg>
+          Download Grabber (Windows)
+        </a>
+        <div class="cta-note">Version 1.6.0 | Free</div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">Grabber</div>
+        <p class="copyright">© 2026 Grabber App. Developed by Mohamed Osama.</p>
+      </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
